@@ -26,7 +26,9 @@ addLayer("g", {
     ],
     layerShown(){return true},
     upgrades: {
-        11: {
+        11: {    title: "fanum tax",
+    description: "haha fanum tax",
+    cost: new Decimal(1),
 
         },
     },

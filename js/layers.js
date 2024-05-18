@@ -26,9 +26,7 @@ addLayer("g", {
     ],
     layerShown(){return true},
     upgrades: {
-	    11: {
+        11: {
 
         },
-
     },
-})

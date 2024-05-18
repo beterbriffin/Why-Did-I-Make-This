@@ -25,10 +25,3 @@ addLayer("g", {
         {key: "g", description: "G: Reset for gyatt points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
     layerShown(){return true},
-    upgrades: {
-        11: {    title: "fanum tax",
-    description: "haha fanum tax",
-    cost: new Decimal(1),
-
-        },
-    },

@@ -24,4 +24,9 @@ addLayer("g", {
     hotkeys: [
         {key: "g", description: "G: Reset for gyatt points", onPress(){if (canReset(this.layer)) doReset(this.layer)}},
     ],
-    layerShown(){return true},
+    upgrades: {
+        11: {
+
+        },	    
+    },
+    layerShown(){return true}
